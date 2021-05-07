@@ -1,0 +1,7 @@
+publicKeysEndpoints:
+  - url: "https://commerce.app.osp.swi.srse.net/auth/publicKey"
+    keyType: "JWK_KEY"
+    Name: authservice
+  - url: "https://oidp.app.osp.swi.srse.net/jwks"
+    keyType: "JWK_KEY"
+    Name: oidp

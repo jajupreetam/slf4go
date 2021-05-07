@@ -1,0 +1,36 @@
+sunrise:
+  client:
+    oAuth:
+      url: https://commerce-develop.app.os-t1.swi.srse.net
+    hybris:
+      url: https://wwwhyb-t00.swi.srse.net/sunrisecommercewebservices/v2/dps
+    nute:
+      linecheck:
+        url: https://nute-t01.app.os-t1.swi.srse.net
+    mais:
+      url: https://mais-t01.app.os-t1.swi.srse.net
+    electrician:
+      url: https://ece-service-develop.app.os-t1.swi.srse.net
+    offer:
+      url: https://ofr-service-develop.app.os-t1.swi.srse.net
+    offerCustomer:
+      url: https://ofr-customer-service-develop.app.os-t1.swi.srse.net
+    orderCategoryEligibility:
+      url: https://oce-service-develop.app.os-t1.swi.srse.net
+    deviceManagement:
+      url: https://device-mgmt-service-develop.app.os-t1.swi.srse.net
+    avcc:
+      url: https://avcc-ms-nute-common-develop.app.os-t1.swi.srse.net
+    productManagement:
+      url: https://product-mgmt-service-develop.app.os-t1.swi.srse.net
+    kioskMachine:
+      url: https://commerce-develop.app.os-t1.swi.srse.net
+    fairpay:
+      url: https://t-fairpay.swi.srse.net
+publicKeysEndpoints:
+  - url: "https://commerce-develop.app.os-t1.swi.srse.net/auth/publicKey"
+    keyType: "JWK_KEY"
+    Name: authservice
+  - url: "https://oidp-dev.app.os-t1.swi.srse.net/jwks"
+    keyType: "JWK_KEY"
+    Name: oidp

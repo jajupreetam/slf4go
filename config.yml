@@ -1,0 +1,63 @@
+server:
+  port: ":8080"
+logging:
+  logFile: "server.log"
+  logLevel: "debug"
+cache:
+  redis:
+    url: localhost:6379
+    password: ""
+    db: 0
+  timeout: 300
+sunrise:
+  client:
+    oAuth:
+      useProxy: false
+      readTimeout: 30
+    hybris:
+      useProxy: false
+      readTimeout: 60
+    nute:
+      linecheck:
+        useProxy: false
+        readTimeout: 60
+    mais:
+      useProxy: false
+      readTimeout: 30
+    electrician:
+      useProxy: false
+      readTimeout: 30
+    offer:
+      useProxy: false
+      readTimeout: 30
+    offerCustomer:
+      useProxy: false
+      readTimeout: 30
+    orderCategoryEligibility:
+      useProxy: false
+      readTimeout: 60
+    deviceManagement:
+      useProxy: false
+      readTimeout: 30
+    avcc:
+      useProxy: false
+      readTimeout: 60
+    fairpay:
+      useProxy: false
+      readTimeout: 30
+    cowin:
+      useProxy: false
+      readTimeout: 30
+      url: https://cdn-api.co-vin.in/api
+httpServer:
+  readTimeout: 60
+  writeTimeout: 60
+defaultAgent:
+  SalesId: "0000017734"
+  Username: "admin"
+  FirstName: "Admin"
+  LastName: "User"
+  TeamId: "75"
+  Location:
+    Id: "0132"
+    Name: "Shop Location (admin)"

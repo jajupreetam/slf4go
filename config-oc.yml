@@ -1,0 +1,3 @@
+cache:
+  redis:
+    url: redis:6379
